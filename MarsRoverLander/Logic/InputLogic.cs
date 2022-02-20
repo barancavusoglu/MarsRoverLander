@@ -14,7 +14,7 @@ namespace MarsRoverLander.Logic
         {
             var inputType = GetConsoleInput(ValidationType.InputType, Messages.ENTER_INPUT_TYPE);
 
-            if (inputType.Equals(Constants.INPUT_TYPE_CONSOLE, StringComparison.InvariantCultureIgnoreCase)) // TODO 
+            if (inputType.Equals(Constants.INPUT_TYPE_CONSOLE, StringComparison.InvariantCultureIgnoreCase))
             {
                 ReadConsole();
             }
