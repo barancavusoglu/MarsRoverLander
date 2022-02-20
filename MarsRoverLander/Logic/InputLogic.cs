@@ -162,7 +162,7 @@ namespace MarsRoverLander.Logic
             rover.Y = Convert.ToInt32(coordinatesAndDirection[1]);
             var directionChar = coordinatesAndDirection[2];
 
-            switch (directionChar.ToUpper())
+            switch (directionChar.ToUpperInvariant())
             {
                 case Constants.NORTH:
                     rover.Direction = CompassPoint.North;
@@ -186,7 +186,7 @@ namespace MarsRoverLander.Logic
 
             foreach (var command in roverCommandInput)
             {
-                switch (command.ToString().ToUpper())
+                switch (command.ToString().ToUpperInvariant())
                 {
                     case Constants.LEFT:
                         rover.RoverCommandList.Add(RoverCommand.Left);
