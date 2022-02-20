@@ -15,7 +15,7 @@ Assume that the square directly North from (x, y) is (x, y+1)
 ## Usage
 
 ### Console Input
-![alt text](https://github.com/barancavusoglu/MarsRoverLander/example/console_input.png?raw=true)
+![alt text](https://github.com/barancavusoglu/MarsRoverLander/blob/master/example/console_input.png)
 
 ### Console Input Limitations
 
@@ -24,7 +24,7 @@ Rover Coordinate -> Min: 0, Max: 9999
 Rover Commands -> Min: 0, Max: 5000
 
 ### File Input
-![alt text](https://github.com/barancavusoglu/MarsRoverLander/example/file_input.png?raw=true)
+![alt text](https://github.com/barancavusoglu/MarsRoverLander/blob/master/example/file_input.png?raw=true)
 
 ### Example File Format
-![alt text](https://github.com/barancavusoglu/MarsRoverLander/example/file.png?raw=true)
+![alt text](https://github.com/barancavusoglu/MarsRoverLander/blob/master/example/file.png?raw=true)
