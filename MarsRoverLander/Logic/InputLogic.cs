@@ -18,7 +18,7 @@ namespace MarsRoverLander.Logic
             {
                 ReadConsole();
             }
-            else if (inputType.ToUpper() == Constants.INPUT_TYPE_FILE)
+            else if (inputType.Equals(Constants.INPUT_TYPE_FILE, StringComparison.InvariantCultureIgnoreCase))
             {
                 ReadFile();
             }
@@ -65,7 +65,7 @@ namespace MarsRoverLander.Logic
                 Console.WriteLine(message);
                 var input = Console.ReadLine();
 
-                if (cancellationEnabled && input.ToUpper() == Constants.INPUT_END_SYMBOL)
+                if (cancellationEnabled && input.Equals(Constants.INPUT_END_SYMBOL, StringComparison.InvariantCultureIgnoreCase))
                 {
                     throw new EndInputException();
                 }
