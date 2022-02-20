@@ -19,9 +19,9 @@ Assume that the square directly North from (x, y) is (x, y+1)
 
 ### Console Input Limitations
 
-Plateau Size -> Min: 0, Max: 9999
-Rover Coordinate -> Min: 0, Max: 9999
-Rover Commands -> Min: 0, Max: 5000
+  Plateau Size -> Min: 0, Max: 9999
+  Rover Coordinate -> Min: 0, Max: 9999
+  Rover Commands -> Min: 0, Max: 5000
 
 ### File Input
 ![alt text](https://github.com/barancavusoglu/MarsRoverLander/blob/master/example/file_input.png?raw=true)
