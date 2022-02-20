@@ -1,6 +1,5 @@
 using MarsRoverLander.Enums;
 using MarsRoverLander.Logic;
-using System;
 using Xunit;
 
 namespace MarsRoverLander.Tests

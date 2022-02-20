@@ -1,6 +1,5 @@
 ﻿using MarsRoverLander.Enums;
 using MarsRoverLander.Models;
-using MarsRoverLander.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;

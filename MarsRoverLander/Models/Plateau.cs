@@ -6,7 +6,7 @@
         {
             X = x;
             Y = y;
-            TotalGridCount = (X+1) * (Y+1);
+            TotalGridCount = (X + 1) * (Y + 1);
         }
 
         public int X { get; private set; }
